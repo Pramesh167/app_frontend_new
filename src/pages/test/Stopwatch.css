@@ -1,0 +1,56 @@
+.stopwatch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../../../public/assets/images/yoru.png') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(132, 209, 215); /* Text color is black */
+  }
+  
+  .time {
+    font-size: 48px;
+    margin: 20px 0;
+    position: absolute;
+    top: 16%; /* Adjust top position as needed */
+    left: 68%; /* Adjust left position as needed */
+    transform: translate(-50%, -50%); /* Center the timer based on the top and left values */
+    color: red; /* Timer color is red */
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .buttons button.start {
+    background-color: blue; /* Start button color */
+    color: white; /* Text color for start button */
+  }
+  
+  .buttons button.lap {
+    background-color: white; /* Lap button color */
+    color: black; /* Text color for lap button */
+  }
+  
+  .buttons button.reset {
+    background-color: red; /* Reset button color */
+    color: white; /* Text color for reset button */
+  }
+  
+  .laps {
+    font-size: large;
+    margin-top: 20px;
+    position: absolute;
+    top: 10%; /* Adjust top position as needed */
+    left: 3%; /* Adjust left position as needed */
+  }
+  
+  .laps div {
+    font-size: 18px;
+    color: white; /* Color of laps recorded is white */
+  }
+  
